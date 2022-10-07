@@ -24,6 +24,11 @@
             bool bo1 = true; //true or false 
             char c1 = (char)65535; //0 - 65535,  256*256 char
 
+            for (int i = 0; i < 65535; i++)
+            {
+                Console.Write((char)i);
+            }
+
 
             Console.WriteLine("byte: "  +sizeof(byte));
             Console.WriteLine("int: " + sizeof(int));
