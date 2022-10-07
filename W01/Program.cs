@@ -1,6 +1,4 @@
-﻿using System.Runtime.Intrinsics.X86;
-
-namespace W01
+﻿namespace W01
 {
     //as a default coding style is camelCase for variables 
     //as default coding style for class and method names are pascal
