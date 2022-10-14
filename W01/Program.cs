@@ -9,7 +9,8 @@
         //camel case syntax
         private static void Main(string[] args)//Main pascal case
         {
-
+            const int a = 0;
+           
             //primitive types /value types
             
             byte b1 = 200;//0--255;
@@ -57,10 +58,13 @@
             Console.WriteLine(dy1.GetType());
             dy1 = true;
             Console.WriteLine(dy1.GetType());
-
+            
 
             //const int ageValueForPeople = 1;
             //Console.WriteLine("Hello, World!" + ageValueForPeople);
+
+           
+
         }
     }
 }
