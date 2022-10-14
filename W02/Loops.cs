@@ -82,10 +82,7 @@ namespace W02
             Console.WriteLine(sum); //55
 
             Console.WriteLine(Sum(10)); //55
-
-
-
-
+            
             //infinite loops
             int condition = 150;
             int cnt = 0;
