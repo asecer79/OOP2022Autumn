@@ -5,6 +5,7 @@ using System.Xml;
 
 namespace W02
 {
+
     //outer scope/ namespace level
 
     class Program
