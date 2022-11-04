@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "W02", "W02\W02.csproj", "{A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "W03", "W03\W03.csproj", "{382EC8B4-6428-43BC-8AD9-FE4CFB9EE611}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W04", "W04\W04.csproj", "{D1F9A29C-F66A-44DC-B028-5EB4AA13B980}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "W04", "W04\W04.csproj", "{D1F9A29C-F66A-44DC-B028-5EB4AA13B980}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "TestProject\TestProject.csproj", "{AC26C440-E4BD-4F00-B6E9-57F111AE7F48}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject", "TestProject\TestProject.csproj", "{AC26C440-E4BD-4F00-B6E9-57F111AE7F48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W05", "W05\W05.csproj", "{0529E131-6B44-4498-AAB1-6C2E6C200247}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{AC26C440-E4BD-4F00-B6E9-57F111AE7F48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC26C440-E4BD-4F00-B6E9-57F111AE7F48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC26C440-E4BD-4F00-B6E9-57F111AE7F48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0529E131-6B44-4498-AAB1-6C2E6C200247}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0529E131-6B44-4498-AAB1-6C2E6C200247}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0529E131-6B44-4498-AAB1-6C2E6C200247}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0529E131-6B44-4498-AAB1-6C2E6C200247}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

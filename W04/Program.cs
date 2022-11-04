@@ -101,9 +101,9 @@ namespace W04
             var userAccount = new UserAccount();
             userAccount.userId = 1;
             userAccount.applicationName = "22";
-            userAccount.userName = "asd";
-            userAccount.LogIn();
-            userAccount.Roles = 1;
+            //userAccount.userName = "asd";
+            //userAccount.LogIn();
+            //userAccount.Roles = 1;
             userAccount.Method2();
             userAccount.LogLogOut();
 
