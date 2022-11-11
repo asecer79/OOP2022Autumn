@@ -1,5 +1,7 @@
 ﻿
+using System.Runtime.Intrinsics.Arm;
 using W06.ExtensionMethods;
+using W06.OperatorOverloading;
 
 namespace W06
 {
@@ -30,8 +32,8 @@ namespace W06
             //int num1 =  Console.ReadLine().ToInt();
             //int num2 = Console.ReadLine().ToInt();
 
-           // Console.WriteLine(num1+num2);
-         
+            // Console.WriteLine(num1+num2);
+
             //Console.WriteLine("1".ToInt()+"2".ToInt());
 
             //Console.WriteLine(25.ToSquare());
@@ -44,7 +46,7 @@ namespace W06
             //Console.WriteLine(result);
 
             //Console.WriteLine(p1.Distance(p1));
-            var clearText = "Aydın";
+            // var clearText = "Aydın";
 
             //var enc = clearText.Encrypt(15);
             //Console.WriteLine(enc);
@@ -52,13 +54,59 @@ namespace W06
             //var dec = enc.Decrypt(15);
             //Console.WriteLine(dec);
 
-            Console.WriteLine(clearText.TersCevir());
+            // Console.WriteLine(clearText.TersCevir());
+
+
+
+            ComplexNumber c1 = new ComplexNumber() { X = 1, Y = -1 };   //1 + i; 
+            ComplexNumber c2 = new ComplexNumber() { X = 1, Y = 1 };   //1 + i; 
+
+            //if (c1==c2)
+            //    Console.WriteLine("They are equal");
+            //else
+            //    Console.WriteLine("They are not equal");
+
+            // //string n = c2;
+
+            // //Console.WriteLine(n);
+            // ComplexNumber c3 = (ComplexNumber)"1,2";   //1+2i
+
+            // Console.WriteLine(c3);
+            // Console.WriteLine(c3.ToString());
+
+            // ComplexNumber c4 =(ComplexNumber) "1,2";   //1+2i
+
+            //Console.WriteLine(c1.ToString());
+
+
+            //Console.WriteLine((c1+ c2).ToString());
+            //Console.WriteLine((c1 - c2).ToString());
+            // ComplexNumber c3 = 2 + c1 + 4 - c1 - 6 + c1 * 2;
+
+
+
+            //  Console.WriteLine(c3.ToString());
+
+            // Console.WriteLine((5*c1*2).ToString());
+
+            //Console.WriteLine(c1*c2);
+
+
+            //anonymous types//especiall can be used in manipulation of Json Objects
+            var addressInfo = new { home = "asdasd", city = "Istanbul" };
+
+
+            var myInfo = new { name = "Aydın", age = 40, address = addressInfo };
+
+            Console.WriteLine(myInfo.age);
+            Console.WriteLine(myInfo.address.city);
+
         }
 
-        static void MultiplyByConstant(Point2D point,int num)
+        static void MultiplyByConstant(Point2D point, int num)
         {
             point.X = point.X * num;
-            point.Y = point.Y* num;
+            point.Y = point.Y * num;
 
             Console.WriteLine($"for class: p2.X, p2.Y = {point.X}, {point.Y}");
         }
@@ -113,7 +161,7 @@ namespace W06
     //can implement  interfaces
     //can inherit,
     //may have static and instance members
-    public class Human 
+    public class Human
     {
         public string Name { get; set; }
         public int Age { get; set; }
@@ -131,7 +179,7 @@ namespace W06
     {
         public double PI { get; set; }
 
-         static MathOperation()
+        static MathOperation()
         {
 
         }
@@ -142,7 +190,7 @@ namespace W06
         }
 
         //abstract method
-        public abstract  int Divide(int a, int b);
+        public abstract int Divide(int a, int b);
     }
 
 
@@ -179,19 +227,19 @@ namespace W06
     //can inherit
     //can  implement  interfaces
 
-   public sealed class LivingCell
+    public sealed class LivingCell
     {
-        public static  int Number { get; set; }
+        public static int Number { get; set; }
         public string Goup { get; set; }
 
         public void Breath()
         {
             Console.WriteLine("Breathing");
         }
-    }  
-   
-   
-   #endregion
+    }
+
+
+    #endregion
 }
 
 
