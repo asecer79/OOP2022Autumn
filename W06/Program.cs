@@ -54,7 +54,7 @@ namespace W06
             //var dec = enc.Decrypt(15);
             //Console.WriteLine(dec);
 
-            // Console.WriteLine(clearText.TersCevir());
+            //Console.WriteLine(clearText.TersCevir());
 
 
 
@@ -79,9 +79,10 @@ namespace W06
             //Console.WriteLine(c1.ToString());
 
 
+
             //Console.WriteLine((c1+ c2).ToString());
             //Console.WriteLine((c1 - c2).ToString());
-            // ComplexNumber c3 = 2 + c1 + 4 - c1 - 6 + c1 * 2;
+            //ComplexNumber c3 = 2 + c1 + 4 - c1 - 6 + c1 * 2;
 
 
 
