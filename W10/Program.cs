@@ -82,10 +82,19 @@ namespace W10
             dbHelper.InsertEvent += (sender, eventArgs) =>
             {
                 Console.WriteLine("InsertEvent triggered");
+                Console.WriteLine("log has been written in db");
+                //logics....
             };
-
             dbHelper.Insert();
       
+
+            dbHelper.BackupDatabaseEvent+= delegate(object sender, EventArgs eventArgs)
+            {
+                Console.WriteLine("BackupDatabaseEvent triggered");
+                Console.WriteLine("info sent to the admin");
+                //logics....
+
+            };
             #endregion
 
 
