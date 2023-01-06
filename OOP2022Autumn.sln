@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "W11", "W11\W11.csproj", "{E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "W12-cancelled-visa2", "W12\W12-cancelled-visa2.csproj", "{496105C0-5A79-4241-9F4C-063CACF6B530}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W13", "W13\W13.csproj", "{EF0C22D1-932C-44BE-AC02-7389C519BC1A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "W13", "W13\W13.csproj", "{EF0C22D1-932C-44BE-AC02-7389C519BC1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W14", "W14\W14.csproj", "{05F94781-7E43-46DA-9D3B-05D0EE8E8046}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{EF0C22D1-932C-44BE-AC02-7389C519BC1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF0C22D1-932C-44BE-AC02-7389C519BC1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF0C22D1-932C-44BE-AC02-7389C519BC1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05F94781-7E43-46DA-9D3B-05D0EE8E8046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05F94781-7E43-46DA-9D3B-05D0EE8E8046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05F94781-7E43-46DA-9D3B-05D0EE8E8046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05F94781-7E43-46DA-9D3B-05D0EE8E8046}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
